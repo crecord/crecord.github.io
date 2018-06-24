@@ -1,1 +1,31 @@
-Hello World
+---
+layout: default
+---
+
+<div class="home">
+
+<video width="100%" height="auto" autoplay loop >
+  <source src="/assets/theReel.mp4" type="video/mp4">
+</video>
+
+
+  <div class="row">
+
+    {% for post in site.posts %}
+    <div class="col-sm-3 col-xs-6">
+      <div class="thumbnail">
+        
+       <a class="post-link" href={{ post.url | prepend: site.baseurl }}>
+       	<span class ="thumbTitle"> {{post.title}} </span> 
+      	<img  class = "thumbPic" src= {{ post.thumb }} />
+    
+        </a>
+       
+    
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+
+</div>

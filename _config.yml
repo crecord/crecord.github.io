@@ -1,0 +1,12 @@
+# Site settings
+title: Caroline Record
+email: info@carolinerecord.com
+description: > # this means to ignore newlines until "baseurl:"
+  Caroline Record is a technologist and artist, with a focus on creating new media art and interactive museum experiences. She graduated from Carnegie Mellon University with a B.F.A in electronic time-based art and a M.S. in Human Computer Interaction. She currently works at the Carnegie Museums of Pittsburgh Innovation Studio as a Creative Technologist where she is involved in every detail of creating immersive interactive experiences. She ideates, storyboards, sources the equipment, solders the electronics, and writes the software necessary to bring innovative museums projects to life. Her recent collaborative projects include the CMOA Light Clock and the Curious Collections Installation at the Pittsburgh International Airport.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://carolinerecord.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown
