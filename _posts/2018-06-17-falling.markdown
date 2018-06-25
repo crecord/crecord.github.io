@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Falling OBJs"
+date:   2018-01-18 21:17:53
+categories: musetech
+thumb: "/assets/thumbs/drift1.jpg"
+permalink: /falling-objs/
+---
+
+<img style="margin-bottom:40px;" src="/assets/projects/falling/drawSelf.gif" alt="she sculpture"/>
+<img style="margin-bottom:40px;" src="/assets/projects/falling/falling.gif" alt="she sculpture"/>
+<img style="margin-bottom:40px;" src="/assets/projects/falling/fall2.png" alt="she sculpture"/>
+<img style="margin-bottom:40px;" src="/assets/projects/falling/fall3.png" alt="she sculpture"/>
+<img style="margin-bottom:40px;" src="/assets/projects/falling/print1.jpg" alt="she sculpture"/>
+<img style="margin-bottom:40px;" src="/assets/projects/falling/print2.jpg" alt="she sculpture"/>
+<img style="margin-bottom:40px;" src="/assets/projects/falling/print3.jpg" alt="she sculpture"/>

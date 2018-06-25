@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Curious Collections"
+date:   2018-04-17 21:17:53
+categories: art musetech
+thumb: "/assets/thumbs/cabinet.jpg"
+permalink: /Curious-Collections/
+cover: "/assets/projects/curious/cover.jpg"
+
+---
+
+We asked a wildly diverse group of 24 Pittsburghers to explore the vast collection of the four Carnegie Museums and tell us what objects they would have in their collections and why. Our guest curators included a security guard, humorist, artist, soccer player, a group of middle schoolers, and a Dean of Computer Science. As you might expect they each have their own unique story of which objects spoke to them. Their picks are now on display in Curious Collections, an interactive cabinet at Pittsburgh International Airport.
+
+<img  style="margin-bottom:40px; margin-top:40px;" src="/assets/projects/curious/interaction.gif" />
+
+<img style="margin-bottom:40px;" src="/assets/projects/curious/3D_scan.jpg" />
+
+<img style="margin-bottom:40px;" src="/assets/projects/curious/participate.jpg" />
+
+### What's in your museum?
+
+<img style="margin-bottom:40px;" src="/assets/projects/curious/post-it-1.png" />
+
+<img style="margin-bottom:40px;" src="/assets/projects/curious/post-it-2.png" />

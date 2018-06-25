@@ -4,9 +4,35 @@ layout: default
 
 <div class="home">
 
-<video width="100%" height="auto" autoplay loop >
-  <source src="/assets/theReel.mp4" type="video/mp4">
+<video width="100%" id="vid" height="auto" muted autoplay loop >
+  <source src="/assets/reel1.webm" type="video/webm">
+  <source src="/assets/reel1.mp4" type="video/mp4">
+  
+  browser doesn't support video
 </video>
+
+<script> 
+    var promise = document.querySelector('video').play();
+
+    if (promise !== undefined) {
+       promise.then(_ => {
+    // Autoplay started!
+        console.log("it played");
+        }).catch(error => {
+          console.log("it didn't");
+          document.getElementById("vid").controls = true;
+    // Autoplay was prevented.
+    // Show a "Play" button so that user can start playback.
+        });
+    }   
+
+    document.querySelector('video').addEventListener('pause', function(){
+          console.log("it paused"); 
+          document.querySelector('video').controls = true;
+          document.querySelector('video').play();
+          console.log(document.querySelector('video').controls); 
+    })
+</script> 
 
 
   <div class="row">

@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Archive Machine"
+date:   2018-01-17 21:17:53
+categories: musetech
+thumb: "/assets/thumbs/archive1.jpg"
+permalink: /archive-machine/
+---
+
+<p><i>Archive Machine </i>, 2015  Interactive installation.</p> 
+<img style="margin-bottom:40px;" src="/assets/projects/archive/space.jpg" alt="she sculpture"/>
+<img style="margin-bottom:40px;" src="/assets/projects/archive/score.jpg" alt="she sculpture"/>
+<img style="margin-bottom:40px;" src="/assets/projects/archive/screen.jpg" alt="she sculpture"/>
+<img style="margin-bottom:40px;" src="/assets/projects/archive/spin.gif" alt="she sculpture"/>
+<img style="margin-bottom:40px;" src="/assets/projects/archive/theStack.gif" alt="she sculpture"/>
+<img style="margin-bottom:40px;" src="/assets/projects/archive/listen.gif" alt="she sculpture"/>
