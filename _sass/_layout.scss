@@ -320,3 +320,13 @@
 svg:hover .logo {
     fill:black;
 }
+
+.social a {
+        float:right;
+    }
+
+@include media-query($on-palm) {
+    .social a {
+        float:left;
+    }
+}
