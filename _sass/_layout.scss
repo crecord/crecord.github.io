@@ -311,3 +311,12 @@
     width: 100%;
     height: 100%;
 }
+
+
+.logo{
+    fill:grey;
+}
+
+svg:hover .logo {
+    fill:black;
+}
