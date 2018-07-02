@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Florum"
+date:   2014-02-17 21:17:53
+categories: [UX-Design]
+thumb: "/assets/thumbs/florum.jpg"
+permalink: /florum/
+cover: "/assets/projects/florum/coverImg.jpg"
+---
+
+<p>Florum is a mobile app for realtors. It provides them with a way to foster relationships with their clients on the go, which ultimately leads to referrals and return business. The goal of this project was to build a mobile application for workers on the go using a user centered design driven approach. Our team chose to work with realtors because they presented a unique design challenge with their very busy schedules with multiple clients and on the go job.</p>
+<p>Over the course of a month team Florum (<a href = "http://www.ginaassaf.com/" target="_blank" >Gina Assaf</a> and <a href = "http://www.binxed.com/" target="_blank" >Nancy Chen</a> and I) did in the field research to identify the needs of  our target realtor population, synthesized the data, visioned, paper prototyped, user tested, created design specs and a concept video.</p>
+<h1>Research and Synthesis</h1> 
+<p>We interviewed multiple agents at three real-estate companies and created an online survey to better understand the work environment and existing technology. We then used a process called affinity diagramming to synthesize and draw design principles from our in the field observations.</p>
+<img   src="/assets/projects/florum/affinity.jpg"   />
+<h1>Design</h1> 
+<p>Based off of our design principles and resulting ideation sessions we did a low fidelity paper prototype, which we then tested with realtors in the field.</p>
+<img   src="/assets/projects/florum/wireFrame.jpg"   />
+<img  style="width:50%; height:auto;" src="/assets/projects/florum/paperPrototype.jpg"   />
+			
+<p>We then used the feedback from our user testing to create our final iteration of Florum! </p>
+<img   src="/assets/projects/florum/designLanguage.jpg"   />
+<img   src="/assets/projects/florum/DesignSpec.jpg"   />
+
+
+{: .col-sm-12 .media}
+<div class="video-container" style="margin-bottom:40px;"><iframe width="560" height="315" src="https://www.youtube.com/embed/jEsAGud0870" frameborder="0" allowfullscreen></iframe></div>
+
+
+

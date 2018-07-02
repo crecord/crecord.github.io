@@ -3,18 +3,16 @@ layout: default
 ---
 <div class="post">
 
-<div style="float:right;" class="PageNavigation">
+
   {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}"> << </a>
+    <a style="float:left;" class="next" href="{{page.next.url}}"> <div id="arrowLeft"></div> </a>
   {% endif %}
-  {% if page.next.url and page.previous.url %}
-    <span> / </span>
-  {% endif %}
+
   {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}"> >> </a>
+    <a style="float:right;"  class="prev" href="{{page.previous.url}}"> <div id="arrowRight"></div> </a>
   {% endif %}
  
-</div>
+
 
 
 <img class = "cover" src="{{ page.cover }}">
@@ -26,5 +24,15 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
+
+
+
+  {% if page.next.url %}
+    <a style="float:left;" class="next" href="{{page.next.url}}"> <div id="arrowLeft"></div> </a>
+  {% endif %}
+
+  {% if page.previous.url %}
+    <a style="float:right;"  class="prev" href="{{page.previous.url}}"> <div id="arrowRight"></div> </a>
+  {% endif %}
 
 </div>

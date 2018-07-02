@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "For the Time Being"
+date:   2016-03-17 21:17:53
+categories: Art
+thumb: "/assets/thumbs/opera1.jpg"
+permalink: /Time-Being/
+---
+
+<p>Interactive media for a short contemporary opera. </p> 
+<img style="margin-bottom:40px;" src="/assets/projects/opera/performing.jpg" alt="she sculpture"/>
+<img style="margin-bottom:40px;" src="/assets/projects/opera/driving.gif" alt="she sculpture"/>
+<img style="margin-bottom:40px;" src="/assets/projects/opera/dim.gif" alt="she sculpture"/>
+<img style="margin-bottom:40px;" src="/assets/projects/opera/end.gif" alt="she sculpture"/>
+<img style="margin-bottom:40px;" src="/assets/projects/opera/process.jpg" alt="she sculpture"/>

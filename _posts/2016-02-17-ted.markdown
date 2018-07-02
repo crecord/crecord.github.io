@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Ted-dy"
+date:   2016-02-17 21:17:53
+categories: Art
+thumb: "/assets/thumbs/05.jpg"
+permalink: /ted/
+---
+
+<div class="video-container" style="margin-bottom:40px;"><iframe width="560" height="315" src="https://www.youtube.com/embed/ac7aZMOpYNE" frameborder="0" allowfullscreen></iframe></div>
+
+<p>I've seen every ted talk. I like them. I know all the caveats - audience polls, generally inspiring statements. I always had an ambition to give a TED talk- but it is hard to say how much of that ambition had to do with an aura of achievement and how much to do with wanting to have something important to say. I gave this talk embodying the affect of professionalism and innovation with absolutely none of the content.</p>
+

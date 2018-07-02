@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Click'd"
+date:   2014-04-17 21:17:53
+categories: [UX-Design, MuseTech]
+thumb: "/assets/thumbs/click.jpg"
+cover: "/assets/projects/click/final.png"
+permalink: /clickd/
+---
+
+
+<p>
+Team Click’d (Andrew Bueno, Maggie Bignell, Michael Loffredo, and Caroline Record) was an interdisciplinary group of four students from the Human Computer Interaction Institute at Carnegie Mellon University. For the Fall 2014 semester, we had the amazing opportunity of partnering with the Pittsburgh Children’s Museum to design a part of their upcoming “Very Eric Carle” exhibit. The exhibit, based on the works of famed children’s author/illustrator Eric Carle, will be premiering in June 2015. Our contribution was a prototype of an interactive experience based on his book The Very Clumsy Click Beetle.</p>
+
+<a href="http://mloffredo.com/clickd/" target="_blank">Here is our project website for more information.</a>
+
+
+{: .col-sm-12 .media}
+<div class="video-container">
+<iframe src="https://player.vimeo.com/video/113922834?color=de4930" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div>

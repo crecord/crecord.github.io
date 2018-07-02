@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Waiting"
+date:   2015-04-17 21:17:53
+categories: Art
+thumb: "/assets/thumbs/waiting.jpg"
+permalink: /waiting/
+---
+
+<p>Photographs, reliefs, and a drawing. Experiments in light and depth.</p>
+
+<img style="margin-bottom:40px;" src="/assets/projects/waiting/01.jpg" alt="Receipt with She Sentence"  >
+<img style="margin-bottom:40px;" src="/assets/projects/waiting/02.jpg" alt="Receipt with She Sentence" >
+<img style="margin-bottom:40px;" src="/assets/projects/waiting/03.jpg" alt="Receipt with She Sentence" >
+<img style="margin-bottom:40px;" src="/assets/projects/waiting/04.jpg" alt="Big Red Gallery" >
+
+

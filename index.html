@@ -4,46 +4,37 @@ layout: default
 
 <div class="home">
 
-<video width="100%" id="vid" height="auto" muted autoplay loop >
-  <source src="/assets/reel1.webm" type="video/webm">
-  <source src="/assets/reel1.mp4" type="video/mp4">
-  
-  browser doesn't support video
-</video>
-
-<script> 
-    var promise = document.querySelector('video').play();
-
-    if (promise !== undefined) {
-       promise.then(_ => {
-    // Autoplay started!
-        console.log("it played");
-        }).catch(error => {
-          console.log("it didn't");
-          document.getElementById("vid").controls = true;
-    // Autoplay was prevented.
-    // Show a "Play" button so that user can start playback.
-        });
-    }   
-
-    document.querySelector('video').addEventListener('pause', function(){
-          console.log("it paused"); 
-          document.querySelector('video').controls = true;
-          document.querySelector('video').play();
-          console.log(document.querySelector('video').controls); 
-    })
-</script> 
 
 
+<div class="video-container col-sm-12" style="margin-bottom:4px;">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/mCuQNHcdw9Y?autoplay=1&controls=0&rel=0&loop=1&showinfo=0&list=PLJYRwCf6ZndUK900ZU3z9ZCu5q97OE56d" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+
+
+
+
+   <div  class="col-sm-12 statement">
+    <p style="" >I am a developer and artist that ideates, solders the electronics, and writes the software necessary to bring poetic and museum experiences to life.<span> My background is in fine arts, user-centered design, and programming. </span></p>
+
+    <hr>
+    <div class ="tags">
+    {% for category in site.categories %}
+      <div onclick="categoryClicked(this)   {% assign catToFilter = 'musetech' %}" class = "tag tg">{{ category | first }}</div>
+              
+    {% endfor %}
+    </div>
+
+
+   </div>
   <div class="row">
-
     {% for post in site.posts %}
-    <div class="col-sm-3 col-xs-6">
+    <div class="col-sm-3 col-xs-6 proj {%for cat in post.categories%}{{cat}} {% endfor %}">
       <div class="thumbnail">
-        
+      
        <a class="post-link" href={{ post.url | prepend: site.baseurl }}>
        	<span class ="thumbTitle"> {{post.title}} </span> 
-      	<img  class = "thumbPic" src= {{ post.thumb }} />
+      	<img  width="480" height="700" class = "thumbPic" src= {{ post.thumb }} />
     
         </a>
        
@@ -55,3 +46,77 @@ layout: default
   </div>
 
 </div>
+
+<script type="text/javascript">
+
+
+
+function categoryClicked(id){
+  console.log("you clicked one");
+  id.classList.remove("tg");
+  clearTags();
+  id.classList.toggle("tagSelected");
+  id.classList.add("tg");
+  if(id.classList.contains("tagSelected")){
+      console.log("it is selected");
+      // filter out all the projects that aren't contained within that tag. 
+      makeInvisible("proj");
+      makeVisible(id.innerHTML)
+  }
+  else{
+    // show all 
+    console.log("it is NOT!!");
+    makeVisible("proj");
+  }
+}
+// remove the active state to the tags
+function clearTags(){
+  var eachTag = document.querySelectorAll(".tg");
+  for (var i = 0; i < eachTag.length; i++) {
+   eachTag[i].classList.remove("tagSelected");
+  }
+}
+
+// toggle the visibility of all with a certain class 
+function makeVisible(clsName){
+  var highlightedItems = document.querySelectorAll("."+clsName);
+  for (var i = 0; i < highlightedItems.length; i++) {
+   highlightedItems[i].classList.remove("invisible");
+  }
+}
+
+// toggle the visibility of all with a certain class 
+function makeInvisible(clsName){
+  var highlightedItems = document.querySelectorAll("."+clsName);
+   for (var i = 0; i < highlightedItems.length; i++) {
+   highlightedItems[i].classList.add("invisible");
+  }
+}
+
+
+
+function hasTouch() {
+    return 'ontouchstart' in document.documentElement
+           || navigator.maxTouchPoints > 0
+           || navigator.msMaxTouchPoints > 0;
+}
+
+if (hasTouch()) { // remove all :hover stylesheets
+    try { // prevent exception on browsers not supporting DOM styleSheets properly
+        for (var si in document.styleSheets) {
+            var styleSheet = document.styleSheets[si];
+            if (!styleSheet.rules) continue;
+
+            for (var ri = styleSheet.rules.length - 1; ri >= 0; ri--) {
+                if (!styleSheet.rules[ri].selectorText) continue;
+
+                if (styleSheet.rules[ri].selectorText.match(':hover')) {
+                    styleSheet.deleteRule(ri);
+                }
+            }
+        }
+    } catch (ex) {}
+}
+    
+
+</script> 

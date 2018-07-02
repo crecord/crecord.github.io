@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Popbox"
+date:   2014-03-17 21:17:53
+categories: [UX-Design]
+thumb: "/assets/thumbs/popbox.jpg"
+permalink: /popbox/
+cover: "/assets/projects/popbox/main.jpg"
+
+---
+
+ 
+<p>Popbox was a team of User Experience Designers working to understand the dynamics of childhood obesity and create a digital experience that engages children in healthier behaviors. The project was the culmination of the Human Computer Interaction masters program and was an eight month partnership with Panasonic Research and Development. </p> 
+<p>1 in 3 children in america struggle with childhood obesity. Through out the course of our project we investigated the causes and implications of this epidemic and how Panasonic can use its position as a global eletronic's company to be a part of the solution. The project consisted of two phases; the first four months were dedicated to domain research, need finding, and synthesis. The last four months consisted of the iterative design process in which we created and user tested four different working prototypes. </p> 
+<p>Like everyone I did a variety of user testing, design, writing, and programming. As team lead I was additionally responsible for setting goals, structuring our time, and interfacing with the client. I also did most of the photography and produced our concept video. </p> 
+<p>Note: This project was amazing, but it is also mostly secret (aka we have an NDA with Panasonic) so the following will only cover the design and research process and not the outcomes. </p> 
+<img   src="/assets/projects/popbox/timeLine.jpg"  />
+<h1>Research Process</h1>
+<p>Team Popbox spent the first half of the project immersed in the User Centered Research process. We did both domain and field research to get a strong sense of the problem space.Our research was aimed at collecting data around the following three questions: </p>
+<p>What challenges do families face when encouraging healthy behaviors in children? </br> How do families make decisions about and communicate healthy lifestyle choices? </br> How do caretakers encourage healthy behaviors in children? </p> 
+<img   src="/assets/projects/popbox/summary.png"  />
+<p>Once we collected our data we used a process called affinity diagraming to synthesize it into actionable findings. We did a presentation and created a 113 page book chronicling our research, process, and outcomes. </p> 
+<img   src="/assets/projects/popbox/affinity.png"  />
+<img   src="/assets/projects/popbox/findings.png"  />
+<h1>Design Process</h1>
+<p>After conducting our domain and field research, we synthesized the data obtained and conducted ideation workshops to create design visions. After validating these visions with different stakeholders and our industry sponsor we consolidated our 3 visions into one and started our iterative design process.</p>
+<p>Over the span of 6 weeks we went though four iterations of prototypes of increasing fidelity, doing user-testing and expert validation at each iteration.</p>
+<img   src="/assets/projects/popbox/designProcess.jpg"  />
+<p>Designing interactive systems for children is a challenging and highly rewarding experience. We wanted children to feel comfortable enough to speak with us candidly during research and testing sessions. So, we tweaked existing research methods and created some new ones to obtain valuable feedback from our target population:</p>
+<img   src="/assets/projects/popbox/methods-timeline.jpg"  />
+<h1>Final Deliverables</h1>
+<p>The final deliverables for the project were two books about our research and design process and outcomes, a concept video, project website, a working conceptual prototype, and a final presentation. </p>
+<img  src="/assets/projects/popbox/finalDeliverables.JPG"  />

@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Drawing"
+date:   2015-02-17 21:17:53
+categories: Art
+thumb: "/assets/thumbs/draw3.jpg"
+permalink: /drawing/
+---
+
+
+<img style="margin-bottom:40px;" src="/assets/projects/onPaperWithPaper/drawing12.jpg" >
+<img style="margin-bottom:40px;"  src="/assets/projects/onPaperWithPaper/float1.jpg" >
+<img style="margin-bottom:40px;"  src="/assets/projects/onPaperWithPaper/float2.jpg" >
+<img style="margin-bottom:40px;"  src="/assets/projects/onPaperWithPaper/withPaper.jpg" >
+			

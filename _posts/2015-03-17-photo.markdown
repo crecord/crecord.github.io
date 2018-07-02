@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Photography"
+date:   2015-03-17 21:17:53
+categories: Art
+thumb: "/assets/thumbs/photo2.jpg"
+permalink: /photography/
+---
+
+<img style="margin-bottom:40px;" src="/assets/projects/photography/field.jpg" alt="she sculpture"/>
+<img style="margin-bottom:40px;" src="/assets/projects/photography/pool.jpg" alt="she sculpture"/>
+<img style="margin-bottom:40px;" src="/assets/projects/photography/lady.jpg" alt="she sculpture"/>
+<img style="margin-bottom:40px;" src="/assets/projects/photography/02S.jpg" alt="she sculpture"/>
+
+
+

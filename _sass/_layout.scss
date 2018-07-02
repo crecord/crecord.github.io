@@ -295,7 +295,8 @@
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
+    height: 0;
+    //padding-top: 30px; height: 0; overflow: hidden;
 }
 
 .media {
@@ -329,4 +330,127 @@ svg:hover .logo {
     .social a {
         float:left;
     }
+}
+
+
+.statement {
+    color:#dccbd2; 
+    //color:#fa7b36;
+    //background-color:#d73b25; 
+    background-color:#170911; 
+    padding-top:8%; 
+    padding-left:10%; 
+    padding-right:10%; 
+    margin-bottom:3px;
+}
+
+
+.statement p {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.statement hr {
+    margin-top: 40px!important;
+    margin-bottom: 20px!important;
+    height: 20px;
+    border: 0;
+    border-top: 3px solid #595055;
+    //border-color:blue;
+   // background-color:#595055;
+}
+
+.tag{
+
+    font-size: 17px;
+    text-transform: capitalize;
+    cursor: pointer;
+    //color:#fef4f8;
+    color:#dccbd2; 
+    display:inline; 
+    background-color:#595055; 
+    padding-top:5px; 
+    padding-bottom:5px; 
+    padding-left:15px; 
+    padding-right:15px; 
+    margin-top:200px;
+    margin-right:20px;
+    border-radius: 10px; 
+
+}
+
+.tag:hover{
+    background-color:#80727b;
+}
+
+
+.tagSelected{
+background-color:#fa7b36 !important; 
+color:#fef4f8 !important;
+}
+
+
+
+.tags{
+ margin-bottom:10%; 
+}
+
+
+.invisible{
+    display:none; 
+}
+
+
+@media screen and (max-width:780px) {  
+  .tags {
+    display: none;
+  }
+  .statement hr {
+    display: none;
+  }
+
+  .statement p {
+    padding-bottom:30px; 
+    margin-bottom: 0px!important;
+  }
+
+
+  .statement span {
+    display: none;
+  }
+}
+
+
+#arrowLeft {
+
+  border-top: 8px solid transparent;
+  border-right: 30px solid black;
+  border-bottom: 8px solid transparent;
+  margin-bottom: 10px; 
+  cursor: pointer;
+}
+
+#arrowRight {
+  border-top: 8px solid transparent;
+  border-left: 30px solid black;
+  border-bottom: 8px solid transparent;
+  margin-bottom: 10px; 
+  cursor: pointer;
+}
+
+#arrowLeft:hover {
+
+  border-top: 8px solid transparent;
+  border-right: 30px solid #595055;
+  border-bottom: 8px solid transparent;
+  margin-bottom: 10px; 
+  cursor: pointer;
+}
+
+#arrowRight:hover {
+  border-top: 8px solid transparent;
+  border-left: 30px solid #595055;
+  border-bottom: 8px solid transparent;
+  margin-bottom: 10px; 
+  cursor: pointer;
 }

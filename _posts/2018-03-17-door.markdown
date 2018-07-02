@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "Section of Mystery"
+date:   2018-03-18 21:17:53
+categories: MuseTech
+thumb: "/assets/thumbs/door1.jpg"
+cover: "/assets/door/cover.jpg"
+permalink: /door/
+---
+
+{:.col-sm-9 .desc}
+This interactive centers around one of Carnegie Museum of Natural History’s most notable and famous architectural features, a half-size wooden door in the Hall of Birds. The door now reads “Section of Mystery” in gold lettering across the front and constantly has mysterious animal noises emanating from within. Every time a museum visitor follows their curiosity and opens the door they are not disappointed by a lock or a maintenance closet. The space within illuminates and reveals a drifting hologram of a chirping or roaring specimen from the collection. The door hides dozens of animals, including a whale, various owls, and a Cape Buffalo, any one of which might emerge each time the door is opened.
+
+{:.col-sm-3 .creds}
+**Role**  
+Creator  
+**Team**  
+Jeffrey Inscho / Manager  
+Videography / Liz Carpenter  
+CMP Facilities / Fabrication  
+Becca Shreckengast / Advisor  
+Golan Levin / Advisor  
+**Links**  
+<a href="https://studio.carnegiemuseums.org/introducing-the-section-of-mystery-ef883d98b94f" target="_blank">Process Write Up</a>,
+<a href="https://studio.carnegiemuseums.org/3d-scanning-workshop-with-carnegie-library-of-pittsburgh-cf87097681e2" target="_blank">3D Scanning Workshop</a>,
+<a href="https://github.com/CMP-Studio/Mystery-Door" target="_blank">Code</a>
+
+
+{: .col-sm-12 .media}
+<div class="video-container">
+<iframe src="https://player.vimeo.com/video/165027260?color=de4930" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div>
+
+{: .col-sm-12 }
+<div class="video-container">
+<iframe src="https://player.vimeo.com/video/167481467?color=de4930" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> </div>
+
+{: .col-sm-6 }
+<div class="video-container">
+<iframe width="640" height="480" src="https://sketchfab.com/models/19c989a6681145bc999c332699eb852e/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> </div>
+
+{: .col-sm-6 }
+<div class="video-container">
+<iframe width="640" height="480" src="https://sketchfab.com/models/1b34de1b8208495abb37b4b629c1f8a3/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> </div>
+
+{: .col-sm-6 }
+<div class="video-container">
+<iframe width="640" height="480" src="https://sketchfab.com/models/1f09d3c7729245ebb324ef878b8ca419/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> </div>
+
+{: .col-sm-6 }
+<div class="video-container">
+<iframe width="640" height="480" src="https://sketchfab.com/models/402c493bcfdb46179fe0cc22511e0fe2/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> </div>
