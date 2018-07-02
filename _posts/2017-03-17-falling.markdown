@@ -2,7 +2,7 @@
 layout: post
 title:  "Falling OBJs"
 date:   2017-03-17 21:17:53
-categories: art
+categories: Art
 thumb: "/assets/thumbs/drift1.jpg"
 permalink: /falling-objs/
 ---
