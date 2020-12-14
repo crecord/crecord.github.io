@@ -13,7 +13,7 @@ body{
 
 .bg {
   /* The image used */
-  background-image: url("phonePics/lineUp-search.jpg");
+  background-image: url("phonePics/fullScreen.png");
 
   /* Full height */
   height: 100%;
@@ -23,9 +23,14 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+
+
 </style> 
 </head>
 <body>
+	<p id="deviceInfo"> deviceInfo </p>
 <div class="bg"></div>
 <h1>This is a heading test</h1>
 <p>This is a paragraph.</p>
@@ -33,6 +38,31 @@ body{
   <img src="phonePics/lineUp-bar.jpg" alt="Girl in a jacket" width="100%" height=auto>
 
 </body>
+
+
+<script>
+
+console.log("hi");
+if(window.DeviceMotionEvent){
+  window.addEventListener("devicemotion", motion, false);
+  console.log("added listener");
+}else{
+  console.log("DeviceMotionEvent is not supported");
+}
+
+function motion(event){
+
+	var str = "Accelerometer: "
+    + event.accelerationIncludingGravity.x + ", "
+    + event.accelerationIncludingGravity.y + ", "
+    + event.accelerationIncludingGravity.z
+  console.log(str  );
+
+document.getElementById("deviceInfo").innerHTML = str;
+
+}
+
+</script>
 </html>
 
 
