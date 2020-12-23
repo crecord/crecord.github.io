@@ -6,18 +6,18 @@
   <style>
   body, html {
   height: 100%;
-  margin-top:-40px; 
+  margin-top:-44px; 
 }
 html{
-  background-color: black;
+  background-color: white;
 }
 body{
 	margin:0px;
-  fill: black;
+  fill: white;
 }
 
 svg{
-  fill: black;
+  fill: white;
 }
 
 .off{
@@ -34,7 +34,7 @@ svg{
 
 .on {
   opacity:0;
-  fill: white;
+  fill: black;
   animation: fadeOut ease 2s;
   -webkit-animation: fadeOut ease 2s;
   -moz-animation: fadeOut ease 2s;
@@ -154,12 +154,19 @@ path:click {
 }
 
 
-
+audio{
+  display: none;
+}
 
 </style> 
 </head>
 <body>
 
+
+
+<audio style="display:none;"id = "ding" controls>
+  <source src="audio/ding.mp3" type="audio/mpeg">
+</audio>
   <!--
   <img src="phonePics/lineUp-bar.jpg" alt="Girl in a jacket" width="100%" height=auto>-->
 
@@ -230,13 +237,15 @@ path:click {
 <script>
 
 var allStates = $("svg.us > *");
-
+var snd = document.getElementById("ding");
 
 allStates.on("click", function() {
   
   allStates.removeClass("on");
   //allStates.removeClass("off");
   $(this).addClass("on");
+  snd.currentTime = 0;
+  snd.play(); 
   
   
  
